@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Shop</title>
+</head>
+<body>
+    <header>
+        <h1 class = "h1_header">Добро пожаловать в Smart Shop!</h1>
+    </header>
+    <form class="main_form">
+        <fieldset>
+            <legend align = "center" class = "main_form_legend">Форма пользователя</legend>
+            <label for="height" class="main_form_item">Рост (см):</label>
+            <input type="number" class="main_form_item" id="height" required>
+            <label for="foot_size" class="main_form_item">Размер ноги (RUS):</label>
+            <input type="number" class="main_form_item" id="foot_size" required>
+            <button type="submit" class="button_save main_form_item">Сохранить</button>
+            <button type="reset" class="button_reset main_form_item">Сбросить</button>
+        </fieldset>  
+    </form>
+    <form class = "search_form">
+        <input type="text" class="search_form_text">
+        <button type="submit" class="search_form_button">Найти</button>
+    </form>
+    <div class="products">
+        <div class="grid_container">
+            <ul class="grid_list" id="grid_list">
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

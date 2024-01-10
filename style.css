@@ -1,0 +1,56 @@
+.h1_header{
+    display: flex;
+    justify-content: center;
+}
+
+.main_form_legend{
+    font-weight: bold;
+}
+
+.main_form_item{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_form{
+    display: flex;
+    justify-content: center;
+}
+
+.grid_container{
+    width: 1184px; 
+    height: 671px; 
+    margin-left: 10%;
+}
+
+.grid_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:10px;
+    width: 1184px;
+    height: 671px;
+    padding-top:40px;
+}
+
+.grid_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_item img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.search_form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.search_form > input{
+    margin-right: 5px;
+}
